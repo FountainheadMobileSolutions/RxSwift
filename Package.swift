@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.9
 
 import PackageDescription
 
@@ -42,7 +42,8 @@ extension Target {
 
 let package = Package(
   name: "RxSwift",
-  platforms: [.iOS(.v9), .macOS(.v10_10), .watchOS(.v3), .tvOS(.v9)],
+  defaultLocalization: "en",
+  platforms: [.iOS(.v12), .macOS(.v12), .watchOS(.v3), .tvOS(.v9)],
   products: ([
     [
       .library(name: "RxSwift", targets: ["RxSwift"]),
