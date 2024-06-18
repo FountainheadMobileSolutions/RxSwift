@@ -43,7 +43,7 @@ extension Target {
 let package = Package(
   name: "RxSwift",
   defaultLocalization: "en",
-  platforms: [.iOS(.v12), .macOS(.v12), .watchOS(.v3), .tvOS(.v9)],
+  platforms: [.iOS(.v12), .macOS(.v12), .watchOS(.v4), .tvOS(.v12)],
   products: ([
     [
       .library(name: "RxSwift", targets: ["RxSwift"]),
